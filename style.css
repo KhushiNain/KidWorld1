@@ -1,0 +1,135 @@
+ *{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+ /* nav-bar styling */
+ .navbar{
+    display: flex;
+    padding-inline: 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 7px;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .card-text{
+    display: flex;
+    align-items: center;
+ }
+ .logo{
+    height: 30px;
+ }
+ /* pink-greeting-bg styling */
+ .pink-bg{
+    background-image: url(./assets/kw-background.png);
+    background-size:100% 100%;
+    padding-left: 93px;
+    padding-block: 84px;
+ }
+ .pink-bg>*{
+    color: white;
+    padding-block: 8px
+ }
+ .pink-bg>h1{
+    font-size: 66px;
+ }
+ /* Book section styling */
+.section-container{
+   display: flex;
+   flex-direction: column;
+   padding-top: 9%;
+
+}
+.section-container>h2{
+   padding: 10px;
+   padding-left: 5%;
+}
+.section-flexbox{
+   display: flex;
+   margin-inline:5%;
+   height:400px;
+   justify-content: space-between;
+}
+/* section box styling */
+.section-box{
+   height: 100%;
+}
+.books{
+   width: 200px;
+}
+.games{
+   width: 300px;
+/* styling of image inside box */
+}
+.images{
+   width: 100%;
+   height: 70%;
+
+}
+.images>img{
+   height: 100%;
+   width: 100%;
+}
+/* styling of box text and button */
+.title-name{
+   font-weight: 600;
+   font-size: 21px;
+   margin-top: 4px;
+}
+.info-author{
+   color: rgb(87, 86, 86);
+   font-size: 18px;
+   padding-block: 7px;
+}
+.price-add{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.price{
+   font-weight: 800;
+   font-size: 22px;
+   padding-top: 10px;
+}
+.add-btn{
+   background-color: rgb(42, 117, 202);
+   display: flex;
+   align-items: center;
+   border: none;
+   border-radius: 4px;
+   color: white;
+   font-weight: 600;
+   font-size: 17px;
+   padding:8px ;
+}
+.add-btn>img{
+   height: 18px;
+   padding-left: 7px;
+}
+/* footer */
+.footer{
+   background-color: black;
+   color: white;
+   padding-inline: 5%;
+   margin-top: 9%;
+}
+.creator-info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.creator-info>img{
+   height: 160px;
+   width: 160px;
+   border-radius: 50%;
+   padding-top: 7px;
+}
+.credits{
+   text-align: end;
+   font-size: 17px;
+   margin-bottom: 20px;
+}
+.credits>h3{
+   padding: 15px 0px;
+}
